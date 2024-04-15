@@ -12,6 +12,12 @@
         {% endblock %}
     </head>
     <body>
+
+        {% include "base/header.html.twig" %}
+
+        <section id='base'>
         {% block body %}{% endblock %}
+        </section>
+        
     </body>
 </html>
